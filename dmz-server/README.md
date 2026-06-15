@@ -79,12 +79,11 @@ sudo bash scripts/verify.sh
 dmz-server/
 ├── scripts/
 │   ├── install-guacamole.sh      # Install Guacamole via Docker
-│   ├── install-wazuh-worker.sh   # Install Wazuh Worker
-│   └── verify.sh                 # Verify the full installation
+│   └── install-wazuh-worker.sh   # Install Wazuh Worker
 ├── config/
 │   ├── netplan.yaml              # Static IP configuration
 │   └── wazuh-worker-setup.md    # Wazuh ossec.conf configuration guide
-└── README.md                     # This file
+└── README.md                    
 ```
 
 ---
